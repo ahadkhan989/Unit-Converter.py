@@ -54,11 +54,7 @@ elif category == "Time":
 value = st.number_input("Provide the value to be converted")
 if st.button("Convert"):
     result = unit_converter(category, value, unit)
-    if isinstance(result, int):
-    st.success(f"The result is {float(result):.2f}")
-    else:
-    st.success(f"The result is {result:.2f}")
-    # st.success(f"The result is {result:.2f}")    # result:.2f means k point(.) k baad 2 digits tk value aae...
+    st.success(f"The result is {result:.2f}")    # result:.2f means k point(.) k baad 2 digits tk value aae...
 
 
         

@@ -20,7 +20,7 @@ def unit_converter(category, value, unit):
             return value / 0.621371        # 1 Mile = 1.60934 Kilometers
         
     elif category == "Weight":
-        if unit == "Kilogram to pounds":
+        if unit == "Kilogram to Pounds":
             return value * 2.20462         # 1 Kilogram = 2.20462 Pounds
         elif unit == "Pounds to Kilogram":
             return value / 2.20462         # 1 Pound = 0.453592 Kilogram
